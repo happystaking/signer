@@ -1,0 +1,16 @@
+{
+  "name": "signer",
+  "version": "0.1.0",
+  "author": "Leon • HAPPY <info@happystaking.io>",
+  "license": "MIT",
+  "repository": "npm/npm",
+  "description": "Create, sign and submit a Cardano transaction",
+  "main": "signer.js",
+  "type": "module",
+  "dependencies": {
+    "@blockfrost/blockfrost-js": "^5.4.0",
+    "@emurgo/cardano-serialization-lib-nodejs": "^11.4.0",
+    "commander": "^11.0.0",
+    "typescript": "^5.1.6"
+  }
+}
